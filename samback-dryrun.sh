@@ -28,7 +28,6 @@ if [ ! "$other_hdd" == "" ]; then
 echo "<SAMBACK> [MSG]: Cloning booted /dev/$booted_hdd to /dev/$other_hdd... (This may take awhile, will run in background)"
 else
 echo "<SAMBACK> [ERR]: No drive of same size as boot device found!"
-exit 1
 fi
 
 echo "This has been a dry run of SamBack."
